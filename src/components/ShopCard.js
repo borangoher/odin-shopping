@@ -20,6 +20,12 @@ const ShopCard = (props) => {
     let tempArr = props.cartNo;
     tempArr[itemNo - 1] += 1;
     props.callfn(tempArr);
+    setCardInfo({
+      cardName: props.cardName,
+      cardDesc: props.desc,
+      cardImg: props.img,
+      numberInCart: props.inCart,
+    });
   };
 
   const decrementCount = (e) => {
@@ -31,6 +37,12 @@ const ShopCard = (props) => {
       tempArr[itemNo - 1] -= 1;
     }
     props.callfn(tempArr);
+    setCardInfo({
+      cardName: props.cardName,
+      cardDesc: props.desc,
+      cardImg: props.img,
+      numberInCart: props.inCart,
+    });
   };
 
   return (
