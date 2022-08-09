@@ -1,0 +1,43 @@
+#cardContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid black;
+  align-items: center;
+}
+
+img {
+  min-width: 10vw;
+  min-height: 10vw;
+  border-bottom: 3px solid lightgray;
+}
+
+#addCart {
+  display: flex;
+  max-height: 8vh;
+  width: 50%;
+  margin: 1vw;
+  align-items: center;
+  justify-content: center;
+  gap: 0.1vw;
+}
+
+button.increment,
+button.decrement {
+  background-color: white;
+  border-radius: 50%;
+  color: black;
+  height: 50%;
+}
+
+#numberInCard {
+  flex: 1;
+  border-radius: 45%;
+  background-color: rgba(40, 36, 36, 1);
+  color: white;
+  min-width: 3vw;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

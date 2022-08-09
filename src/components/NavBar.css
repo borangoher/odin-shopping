@@ -1,0 +1,16 @@
+nav {
+  background-color: rgb(4, 4, 53);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+h1#logo {
+  margin-right: 30vw;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}

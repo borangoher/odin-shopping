@@ -1,0 +1,23 @@
+#cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  top: 20%;
+  right: 35%;
+  height: 60%;
+  width: 30%;
+  border: 2px solid black;
+  background-color: lightgray;
+  color: black;
+  z-index: 99;
+}
+
+.invis {
+  display: none !important;
+}
+
+.dim {
+  box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.3);
+}

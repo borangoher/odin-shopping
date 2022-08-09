@@ -1,0 +1,8 @@
+#shopContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1vw;
+  padding: 1vw;
+  background-color: lightgray;
+}
